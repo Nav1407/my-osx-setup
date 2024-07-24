@@ -30,10 +30,6 @@
   community.general.homebrew:
     name: adr-tools
 
-- name: Install git-quick-stats
-  community.general.homebrew:
-    name: git-quick-stats
-
 - name: Install GitHub tools
   community.general.homebrew:
     name: gh,git-lfs,git-filter-repo,bfg
