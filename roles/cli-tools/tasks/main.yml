@@ -26,14 +26,6 @@
   ansible.builtin.pip:
     name: petname
 
-- name: Install core GNU utilities
-  community.general.homebrew:
-    name: coreutils
-
-- name: Install GNU implementation of sed
-  community.general.homebrew:
-    name: gnu-sed
-
 - name: Install tool for working with Architecture Decision Records
   community.general.homebrew:
     name: adr-tools
