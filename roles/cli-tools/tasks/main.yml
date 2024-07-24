@@ -22,10 +22,6 @@
   community.general.homebrew:
     name: cloc
 
-- name: Install scc code counter
-  community.general.homebrew:
-    name: scc
-
 - name: Install petname command line name generator
   ansible.builtin.pip:
     name: petname
