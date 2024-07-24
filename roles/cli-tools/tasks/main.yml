@@ -18,14 +18,6 @@
   community.general.homebrew:
     name: jq
 
-- name: Install docutils for processing documentation
-  ansible.builtin.pip:
-    name: docutils
-
-- name: Install python-json2csv for JSON to CSV
-  ansible.builtin.pip:
-    name: python-json2csv
-
 - name: Install cloc lines of code utility
   community.general.homebrew:
     name: cloc
