@@ -66,10 +66,6 @@
       bind '"' split-window -c "#{pane_current_path}"
       bind % split-window -h -c "#{pane_current_path}"
 
-- name: Install Midnight Commander command line file manager
-  community.general.homebrew:
-    name: midnight-commander
-
 - name: Install icdiff side-by-side diff tool
   community.general.homebrew:
     name: icdiff
