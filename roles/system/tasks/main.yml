@@ -2,10 +2,6 @@
   community.general.homebrew_cask:
     name: logitech-options
 
-- name: Install balena etcher bootable USB creator
-  community.general.homebrew_cask:
-    name: balenaetcher
-
 - name: Install testdisk
   community.general.homebrew:
     name: testdisk
