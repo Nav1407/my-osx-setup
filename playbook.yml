@@ -36,8 +36,6 @@
     - cli-tools
     - python
     - system
-    - java
-    - maven
     - node
     - golang
     - ruby
