@@ -56,10 +56,6 @@
   community.general.homebrew:
     name: kubernetes-cli
 
-- name: Install Act for testing local GitHub workflows
-  community.general.homebrew:
-    name: act
-
 - name: Install tap for hashicorp
   community.general.homebrew_tap:
     name: hashicorp/tap
