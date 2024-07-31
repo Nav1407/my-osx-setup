@@ -19,8 +19,3 @@
 - name: Install python setuptools
   ansible.builtin.pip:
     name: setuptools
-
-- name: Install vim plugin
-  ansible.builtin.git:
-    repo: https://github.com/python-mode/python-mode.git
-    dest: ~/.vim/bundle/python-mode

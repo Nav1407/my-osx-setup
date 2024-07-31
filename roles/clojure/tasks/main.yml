@@ -1,8 +1,0 @@
-- name: Install leiningen
-  community.general.homebrew:
-    name: leiningen
-
-- name: Install vim plugin
-  ansible.builtin.git:
-    repo: https://github.com/tpope/vim-fireplace.git
-    dest: ~/.vim/bundle/vim-fireplace

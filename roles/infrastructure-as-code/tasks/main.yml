@@ -69,17 +69,6 @@
   community.general.homebrew:
     name: act
 
-- name: Install vim plugins
-  ansible.builtin.git:
-    repo: "{{ item.repo }}"
-    dest: "~/.vim/bundle/{{ item.dest }}"
-  with_items:
-    - {repo: "https://github.com/pearofducks/ansible-vim.git", dest: ansible-vim}
-    - {repo: "https://github.com/hashivim/vim-terraform.git", dest: vim-terraform}
-    - {repo: "https://github.com/rodjek/vim-puppet.git", dest: vim-puppet}
-    - {repo: "https://github.com/hashivim/vim-packer.git", dest: vim-packer}
-
-
 - name: Install tap for hashicorp
   community.general.homebrew_tap:
     name: hashicorp/tap
