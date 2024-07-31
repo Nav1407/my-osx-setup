@@ -9,10 +9,6 @@
   community.general.homebrew_cask:
     name: tableplus
 
-- name: Install dbvisualizer
-  community.general.homebrew_cask:
-    name: dbvisualizer
-
 - name: Install psql client
   community.general.homebrew:
     name: libpq
