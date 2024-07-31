@@ -2,10 +2,6 @@
   community.general.homebrew_cask:
     name: logitech-options
 
-- name: Install testdisk
-  community.general.homebrew:
-    name: testdisk
-
 - name: System monitor for the menu bar
   community.general.homebrew_cask:
     name: stats
