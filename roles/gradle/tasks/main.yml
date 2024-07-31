@@ -1,3 +1,0 @@
-- name: Install Gradle
-  community.general.homebrew:
-    name: gradle
