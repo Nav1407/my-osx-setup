@@ -92,7 +92,3 @@
 - name: Install NCurses Disk Usage utility
   community.general.homebrew:
     name: ncdu
-
-- name: Install traceroute for network diagnostics
-  community.general.homebrew:
-    name: tcptraceroute
