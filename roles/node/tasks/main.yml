@@ -21,9 +21,6 @@
 - name: Set default node version for NVM
   ansible.builtin.shell: export NVM_DIR="$HOME/.nvm" && . "$(brew --prefix nvm)/nvm.sh" && nvm alias default node
 
-- name: Install Electron Packager
-  ansible.builtin.shell: export NVM_DIR="$HOME/.nvm" && . "$(brew --prefix nvm)/nvm.sh" && $HOME/.nvm/versions/node/v20.10.0/bin/npm install electron-packager --global
-
 - name: Install Yarn
   ansible.builtin.shell: export NVM_DIR="$HOME/.nvm" && . "$(brew --prefix nvm)/nvm.sh" && $HOME/.nvm/versions/node/v20.10.0/bin/npm install yarn --global
 
