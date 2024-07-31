@@ -70,10 +70,6 @@
   community.general.homebrew:
     name: icdiff
 
-- name: Install telnet
-  community.general.homebrew:
-    name: telnet
-
 - name: Install HTTPie cURL wrapper
   ansible.builtin.command: brew install httpie
 
