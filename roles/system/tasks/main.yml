@@ -5,11 +5,3 @@
 - name: System monitor for the menu bar
   community.general.homebrew_cask:
     name: stats
-
-- name: Install OpenVPN Client
-  community.general.homebrew_cask:
-    name: tunnelblick
-
-- name: Install ExpressVPN
-  community.general.homebrew_cask:
-    name: expressvpn
