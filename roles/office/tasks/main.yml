@@ -42,10 +42,6 @@
   community.general.homebrew_cask:
     name: flycut
 
-- name: Install lastpass password manager
-  community.general.homebrew_cask:
-    name: lastpass
-
 - name: Install clocker timezone menu
   community.general.homebrew_cask:
     name: clocker
