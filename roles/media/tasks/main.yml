@@ -5,7 +5,3 @@
 - name: Install VLC media player
   community.general.homebrew_cask:
     name: vlc
-
-- name: Install handbrake for video transcoding
-  community.general.homebrew_cask:
-    name: handbrake
