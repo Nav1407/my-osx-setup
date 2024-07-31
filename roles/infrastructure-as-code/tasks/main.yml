@@ -36,15 +36,6 @@
   community.general.homebrew:
     name: terraform
 
-- name: Install bundler for managing ruby
-  gem:
-    name: bundler
-    executable: ~/.rbenv/shims/gem
-
-- name: Install direnv for environment management
-  community.general.homebrew:
-    name: direnv
-
 - name: Install tflint Terraform linting tool
   community.general.homebrew:
     name: tflint
